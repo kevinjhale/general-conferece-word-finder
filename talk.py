@@ -12,6 +12,6 @@ class Talk:
         return self.link
 
     def toString(self):
-        return "\nSpeaker: " + self.speaker + \
+        return "Speaker: " + self.speaker + \
                "\nTitle: " + self.title + \
                "\nLink: " + self.link + '\n'
